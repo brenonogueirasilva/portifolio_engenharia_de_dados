@@ -26,3 +26,23 @@ Este projeto tem como objetivo desenvolver uma automação que seja capaz de col
 </p>
 
 #### Link Projeto: https://github.com/brenonogueirasilva/ingestao_api/
+
+## Projeto 3: Data Lake on Premisse
+
+Na era do Big Data, com o surgimento dos famosos três "V's" (Velocidade, Variedade e Volume), tornou-se imperativo o desenvolvimento de uma nova arquitetura de armazenamento de dados capaz de lidar com esse cenário desafiador. Nesse contexto, o Data Lake emergiu como uma das principais abordagens de armazenamento de dados concebidas para atender às demandas do Big Data.
+
+Com o intuito de aprofundar o entendimento do Data Lake e compreender de maneira prática o seu funcionamento, surgiu a ideia deste projeto que visa criar um Data Lake on-premises. Esse Data Lake simulará as três principais camadas de um Data Lake (Silver, Bronze e Gold), juntamente com as etapas de ingestão de dados e processamento.
+
+### Tecnologias Utilizadas
+
+  Minio, Hive, Trino, Python, Pyspark, Docker 
+<p align="left">
+<img src="/img/minio-logo.webp" alt="minio" height="50" /> 
+<img src="/img/hive-logo.jpg" alt="hive" height="50" /> 
+<img src="/img/trino-logo.png" alt="trino" height="50"/> 
+<img src="/img/python-logo.png" alt="python" height="50"/> 
+<img src="/img/pyspark.jpg" alt="pyspark" height="50"/> 
+<img src="/img/docker-logo.png" alt="docker" height="50"/> 
+</p>
+
+#### Link Projeto: https://github.com/brenonogueirasilva/datalake_on_premisse/
