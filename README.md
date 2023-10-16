@@ -46,3 +46,6 @@ Com o intuito de aprofundar o entendimento do Data Lake e compreender de maneira
 </p>
 
 #### Link Projeto: https://github.com/brenonogueirasilva/datalake_on_premisse/
+
+## Contato
+https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
