@@ -47,5 +47,25 @@ Com o intuito de aprofundar o entendimento do Data Lake e compreender de maneira
 
 #### Link Projeto: https://github.com/brenonogueirasilva/datalake_on_premisse/
 
+## Projeto 4: Ingestão de Dados por API em ambiente Cloud (GCP)
+
+O objetivo deste projeto é desenvolver uma automação que colete dados governamentais por meio de uma API e armazene esses dados. O projeto será implementado em nuvem, especificamente na Google Cloud Platform (GCP). Será utilizado Cloud Functions como local de execução do código, que será desenvolvido em Python, seguindo os princípios da programação orientada a objetos (POO) e as melhores práticas de programação.
+
+Após a coleta dos dados da API, as respostas serão salvas no formato JSON no Cloud Storage e, posteriormente, serão inseridas no BigQuery. O gatilho de execução será configurado por meio do Cloud Scheduler. Toda a infraestrutura será provisionada utilizando o Terraform, que permite a criação da infraestrutura como código.
+
+### Tecnologias Utilizadas
+
+  Python, Cloud Function, Cloud Storage, Cloud Scheduler, Big Query, Terraform  
+<p align="left">
+<img src="/img/python-logo.png" alt="python" height="50" /> 
+<img src="/img/cloud-function.png" alt="cloud-function" height="50" /> 
+<img src="/img/logo-googlecloudstorage.png" alt="cloud_storage" height="50" /> 
+<img src="/img/cloud-scheduler-2.png" alt="cloud_scheduler" height="50" />
+<img src="/img/google-bigquery-logo-1.jpg" alt="google-bigquery" height="50" />
+<img src="/img/terraform.png" alt="terraform.png" height="50" />  
+</p>
+
+#### Link Projeto: https://github.com/brenonogueirasilva/ingestao_api_cloud
+
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
