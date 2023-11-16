@@ -67,5 +67,26 @@ Após a coleta dos dados da API, as respostas serão salvas no formato JSON no C
 
 #### Link Projeto: https://github.com/brenonogueirasilva/ingestao_api_cloud
 
+## Projeto 5: Desenvolvimento de uma API junto a banco de dados NoSQL
+
+Este projeto tem como objetivo desenvolver uma API que interaja com um banco de dados NoSQL MongoDB, hospedado no ambiente de nuvem da Google (GCP). A API será capaz de realizar todas as operações do CRUD (Create, Read, Update, Delete), permitindo a criação, leitura, atualização e exclusão de registros ou documentos. A proposta visa simular uma etapa do ambiente de trabalho de um engenheiro de dados, que frequentemente precisa disponibilizar dados por meio de uma API em vez de permitir acesso direto ao banco. Isso se deve às inúmeras vantagens proporcionadas, como maior segurança, abstração mais eficiente dos dados, padronização e flexibilidade na manutenção.
+
+### Tecnologias Utilizadas
+
+  MongoDb, CloudRun, FastApi, Google Comput Engine, Python, Secret Manager, Terraform, Docker
+  
+<p align="left">
+<img src="/img/MongoDB-Logo.jpg" alt="mongoDB" height="50" /> 
+<img src="/img/cloud-run.png" alt="cloud-run" height="50" /> 
+<img src="/img/fast-api.png" alt="fastapi" height="50"/> 
+<img src="/img/Google-Compute-Engine.png" alt="google-compute-engine" height="50"/> 
+<img src="/img/python-logo.png" alt="python" height="50"/> 
+<img src="/img/secret-manager.png" alt="secret-manager" height="50"/> 
+<img src="/img/terraform.png" alt="terraform" height="50"/> 
+<img src="/img/docker-logo.png" alt="docker" height="50"/> 
+</p>
+
+#### Link Projeto: https://github.com/brenonogueirasilva/ingestao_api_cloud
+
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
