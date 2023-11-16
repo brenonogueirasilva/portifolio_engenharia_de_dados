@@ -86,7 +86,7 @@ Este projeto tem como objetivo desenvolver uma API que interaja com um banco de 
 <img src="/img/docker-logo.png" alt="docker" height="50"/> 
 </p>
 
-#### Link Projeto: https://github.com/brenonogueirasilva/ingestao_api_cloud
+#### Link Projeto: https://github.com/brenonogueirasilva/api_nosql
 
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
