@@ -88,5 +88,30 @@ Este projeto tem como objetivo desenvolver uma API que interaja com um banco de 
 
 #### Link Projeto: https://github.com/brenonogueirasilva/api_nosql
 
+## Projeto 6: Desenvolvimento de um DataWarehouse em ambiente Cloud
+
+O Data Warehouse é uma arquitetura de armazenamento de dados que atua como um repositório central de dados integrados e estruturados, provenientes de uma ou mais fontes. Ele é especialmente direcionado para relatórios e análises de dados, sendo amplamente utilizado no contexto de Business Intelligence para fornecer informações cruciais para a tomada de decisões empresariais. 
+
+O objetivo deste projeto é desenvolver um datawarehouse em ambiente cloud da Google, em específico no BigQuery, tendo como fonte um banco de dados relacional Mysql hospedado em um CloudSql. O banco de dados de produção por ser de natureza transacional (OLTP) é modelado orientado a entidade relacionamento, como no datawarehouse é voltado para processamento analítico (OLAP) será necessário trabalhar com modelo dimensional, junto de tabelas fatos e dimensões.
+
+Para a transformação dos dados e consolidação das tabelas dimensionais no BigQuery, será utilizada a ferramenta DBT. Esta solução open source permite a materialização de tabelas do Data Warehouse por meio de consultas SQL, além de implementar lógica de carga incremental e tabelas de dimensão do tipo Slowly Changing Dimension (SCD). A integração entre o BigQuery e o Cloud SQL permitirá consultas federadas, possibilitando que o DBT realize toda a ETL de maneira eficiente. 
+
+### Tecnologias Utilizadas
+
+  CloudSql, MySql, Python, CloudFunctions, CloudScheduler, DBT, BigQuery, Terraform 
+  
+<p align="left">
+<img src="/img/cloud-sql.png" alt="cloud_sql" height="50" /> 
+<img src="/img/mysql-logo.png" alt="mysql" height="50" /> 
+<img src="/img/python-logo.png" alt="python" height="50"/> 
+<img src="/img/cloud-function.png" alt="cloud_functions" height="50"/> 
+<img src="/img/cloud-scheduler-2.png" alt="cloud-scheduler" height="50"/> 
+<img src="/img/dbt-logo.png" alt="dbt" height="50"/> 
+<img src="/img/google-bigquery-logo-1.jpg" alt="bigquery" height="50"/> 
+<img src="/img/terraform.png" alt="terraform" height="50"/> 
+</p>
+
+#### Link Projeto: https://github.com/brenonogueirasilva/data-warehouse/
+
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
