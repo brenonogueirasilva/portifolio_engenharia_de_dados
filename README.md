@@ -111,5 +111,30 @@ Para a transformação dos dados e consolidação das tabelas dimensionais no Bi
 
 #### Link Projeto: https://github.com/brenonogueirasilva/data-warehouse/
 
+## Projeto 7: Disponibilização de dados através de uma API de um banco de dados SQL
+
+Dentro do escopo de atividades de um engenheiro de dados, a disponibilização ou recebimento de dados por meio de uma API é uma prática comum. Essa API pode ser consumida por diferentes aplicações, alinhando-se com as vantagens associadas à filosofia de microsserviços. Dentre outras como melhoria da segurança, a abstração eficiente de dados, e a flexibilidade de manutenção. 
+
+Nesse contexto, este projeto tem como objetivo o desenvolvimento de uma API capaz de realizar operações CRUD (Create, Read, Update, Delete) em um banco de dados MySQL hospedado no Cloud SQL, dentro do ambiente de nuvem da Google (GCP). Ao longo do desenvolvimento, serão incorporadas boas práticas de Integração Contínua e Entrega Contínua (CI/CD). Isso incluirá o provisionamento da infraestrutura como código, utilizando o Terraform, e a implementação de pipelines automatizadas de código. Essas práticas serão integradas ao GitHub, permitindo a execução automática em ambientes de produção ou desenvolvimento sempre que houver mudanças no repositório. 
+
+### Tecnologias Utilizadas
+
+MySql, CloudSql, CloudRun, FastApi, Python, SecretManager, Terraform, Docker, GitHub, ApitGateway  
+  
+<p align="left">
+<img src="/img/mysql-logo.png" alt="mysql" height="50" /> 
+<img src="/img/cloud-sql.png" alt="cloud_sql" height="50" />
+<img src="/img/cloud-run.png" alt="cloud_run" height="50" /> 
+<img src="/img/fast-api.png" alt="fast_api" height="50" />
+<img src="/img/python-logo.png" alt="python" height="50" />
+<img src="/img/secret-manager.png" alt="secret_manager" height="50" />
+<img src="/img/terraform.png" alt="terraform" height="50" />
+<img src="/img/docker-logo.png" alt="docker" height="50" />
+<img src="/img/git_hub.jpg" alt="git_hub" height="50" />
+<img src="/img/api_gateway.png" alt="api_gateway" height="50" />
+</p>
+
+#### Link Projeto: https://github.com/brenonogueirasilva/criacao-api-sql
+
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
