@@ -137,7 +137,7 @@ MySql, CloudSql, CloudRun, FastApi, Python, SecretManager, Terraform, Docker, Gi
 
 #### Link Projeto: https://github.com/brenonogueirasilva/criacao-api-sql
 
-## Projeto 8: Disponibilização de dados através de uma API de um banco de dados SQL
+## Projeto 8: Versionamento de Tabelas com Streaming de Dados usando Dataflow
 
 Dentro do meu ambiente de trabalho, nos deparamos com tabelas em bancos transacionais que passam por edições e exclusões físicas de registros, resultando na impossibilidade de consultar seus históricos, sendo possível apenas visualizar o seu estado atual. 
 
