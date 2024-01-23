@@ -1,4 +1,4 @@
-# Portfólio de Engenharia de Dados / Analytics Engineer
+# Portfólio de Engenharia de Dados
 
 ## Projeto 1: Solução de Versionamento de Dados (CDC) com PySpark
 Este projeto foi concebido em resposta a uma necessidade identificada no meu ambiente de trabalho. Nossa equipe lida com uma tabela dentro de um Data Lake que sofre modificações (updates) que impede a existência de um histórico acessível. Curiosamente, a origem dessa tabela é um arquivo de backup de um banco de dados MySQL, impedindo aplicar um processo de Change Data Capture (CDC) tradicional, o que nos levou a desenvolver um script capaz de simular um CDC. Dada a escala dessa tabela, com mais de dois milhões de linhas e mais de vinte colunas, optamos pelo uso do Spark, uma ferramenta ideal para o processamento de volumes massivos de dados. Como linguagem de programação, escolhemos o Python e utilizamos o PySpark como uma interface para interagir com o Apache Spark.
@@ -136,6 +136,34 @@ MySql, CloudSql, CloudRun, FastApi, Python, SecretManager, Terraform, Docker, Gi
 </p>
 
 #### Link Projeto: https://github.com/brenonogueirasilva/criacao-api-sql
+
+## Projeto 8: Disponibilização de dados através de uma API de um banco de dados SQL
+
+Dentro do meu ambiente de trabalho, nos deparamos com tabelas em bancos transacionais que passam por edições e exclusões físicas de registros, resultando na impossibilidade de consultar seus históricos, sendo possível apenas visualizar o seu estado atual. 
+
+Este projeto tem como objetivo desenvolver uma pipeline capaz de versionar os registros dessas tabelas, criando um histórico acessível em tempo real para a área de negócios. Para lidar com os dados em tempo real, optamos pelo uso de tecnologia de streaming, especificamente o Apache Beam, executado no ambiente em nuvem da Google (GCP) por meio de um job no Dataflow. Além disso, para capturar as alterações nos registros do banco, utilizaremos um serviço de Captura de Dados Alterados (CDC) gerenciado no GCP chamado Datastream. 
+
+### Tecnologias Utilizadas
+
+MySql, CloudSql, Data Stream, Cloud Data Storage, Pub/Sub, Data Flow, Apache Beam, BigQuery, Clound Build, GitHub, Terraform, Docker   
+  
+<p align="left">
+<img src="/img/mysql-logo.png" alt="mysql" height="50" /> 
+<img src="/img/cloud-sql.png" alt="cloud_sql" height="50" />
+<img src="/img/datastream.png" alt="datastream" height="50" /> 
+<img src="/img/cloud storage.png" alt="cloud storage" height="50" />
+<img src="/img/cloud-pub-sub.png" alt="cloud-pub-sub" height="50" />
+<img src="/img/dataflow-logo.webp" alt="dataflow-logo" height="50" />
+<img src="/img/Apache-Beam.png" alt="Apache-Beam" height="50" />
+<img src="/img/google-bigquery-logo-1.jpg" alt="google-bigquery-logo-1" height="50" />
+<img src="/img/cloud_build.png" alt="cloud_build" height="50" />
+<img src="/img/git_hub.jpg" alt="git_hub" height="50" />
+<img src="/img/terraform.png" alt="terraform" height="50" />
+<img src="/img/docker-logo.png" alt="docker-logo" height="50" />
+</p>
+
+#### Link Projeto: https://github.com/brenonogueirasilva/cdc-streamming---V2
+
 
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
