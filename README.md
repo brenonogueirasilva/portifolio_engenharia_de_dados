@@ -164,6 +164,28 @@ MySql, CloudSql, Data Stream, Cloud Data Storage, Pub/Sub, Data Flow, Apache Bea
 
 #### Link Projeto: https://github.com/brenonogueirasilva/cdc-streamming---V2
 
+## Projeto 9: WebScraping
+
+Dentro do ambiente de trabalho de um engenheiro de dados, podem existir situações nas quais se torna necessário realizar a coleta de dados de algum site ou aplicação, na qual não é possível utilizar uma API ou ter acesso direto ao banco de dados. Nessas circunstâncias, recorre-se ao web scraping.
+
+Este projeto tem como objetivo realizar web scraping do site do Airbnb, coletando dados sobre imóveis em uma determinada localidade e período de tempo específico. O processo de scraping será conduzido no ambiente de nuvem do Google Cloud Platform (GCP), executado em uma máquina virtual.
+
+### Tecnologias Utilizadas
+ 
+Artifact Registry, Cloud Build, Docker, Terraform, Selenium, GitHub, Cloud Storage, Big Query 
+
+<p align="left">
+<img src="/img/artifact-registry.png" alt="artifact-registry" height="50" /> 
+<img src="/img/cloud_build.png" alt="cloud_build" height="50" />
+<img src="/img/docker-logo.png" alt="docker" height="50" /> 
+<img src="/img/terraform.png" alt="terraform.pn" height="50" />
+<img src="/img/Selenium_logo.svg.png" alt="Selenium_logo" height="50" />
+<img src="/img/git_hub.jpg" alt="git_hub" height="50" />
+<img src="/img/cloud storage.png" alt="cloud storage" height="50" />
+<img src="/img/google-bigquery-logo-1.jpg" alt="big_query" height="50" />    
+</p>
+
+#### Link Projeto: https://github.com/brenonogueirasilva/web-scrapping
 
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
