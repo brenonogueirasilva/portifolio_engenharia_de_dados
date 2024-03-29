@@ -185,7 +185,24 @@ Artifact Registry, Cloud Build, Docker, Terraform, Selenium, GitHub, Cloud Stora
 <img src="/img/google-bigquery-logo-1.jpg" alt="big_query" height="50" />    
 </p>
 
-#### Link Projeto: https://github.com/brenonogueirasilva/web-scrapping
+## Projeto 10: Disponibilização de Tabelas em Tempo Real em Ambiente Datalake através de Streaming de Dados com CDC e Apache Kafka 
+
+Em determinados contextos de engenharia de dados, surge a necessidade de disponibilizar dados de uma tabela transacional em tempo real. Para isso, é crucial utilizar streaming de dados, que envolve a coleta, ingestão e processamento de dados em tempo real. Este projeto tem como objetivo desenvolver uma pipeline capaz de coletar dados em tempo real de um banco transacional Postgres, utilizando para isso um conector CDC chamado Debezium, juntamente com o Apache Kafka, uma tecnologia popular de streaming. Os dados serão então disponibilizados em um datalake, usando o Minio como armazenamento de objeto e o DuckDB como engine de processamento. Todo o projeto será desenvolvido em ambiente local com o uso do Docker. 
+
+### Tecnologias Utilizadas
+ 
+Docker, Postgres, Kafka, Debezium, Minio, Python, DuckDb
+
+<p align="left">
+<img src="/img/postgres-logo.png" alt="postgres-logo" height="50" /> 
+<img src="/img/docker-logo.png" alt="docker" height="50" />
+<img src="/img/kafka-logo.png" alt="kafka-logo" height="50" />
+<img src="/img/debezium-logo.png" alt="debezium" height="50" />
+<img src="/img/python-logo.png" alt="python" height="50" />
+<img src="/img/duckdb-logo.png" alt="duckdb" height="50" />  
+</p>
+
+#### Link Projeto: [https://github.com/brenonogueirasilva/cdc-stream-kafka-datalake/]
 
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
