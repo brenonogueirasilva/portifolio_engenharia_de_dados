@@ -202,7 +202,7 @@ Docker, Postgres, Kafka, Debezium, Minio, Python, DuckDb
 <img src="/img/duckdb-logo.png" alt="duckdb" height="50" />  
 </p>
 
-#### Link Projeto: [https://github.com/brenonogueirasilva/cdc-stream-kafka-datalake/]
+#### Link Projeto: https://github.com/brenonogueirasilva/cdc-stream-kafka-datalake/
 
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
