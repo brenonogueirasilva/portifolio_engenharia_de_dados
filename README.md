@@ -206,5 +206,27 @@ Docker, Postgres, Kafka, Debezium, Minio, Python, DuckDb
 
 #### Link Projeto: https://github.com/brenonogueirasilva/cdc-stream-kafka-datalake/
 
+## Projeto 11: Pipeline Batch com uso do Spark através do DataProc do GCP
+
+O Google Cloud Dataproc é um serviço gerenciado na nuvem da Google que possibilita a rápida e eficiente execução de scripts Spark. Este projeto tem como objetivo o desenvolvimento completo de uma pipeline, que tem origem em dados armazenados no Google Drive, os quais são processados pelo Dataproc. Além disso, o projeto envolve a configuração do Airflow para a orquestração dessa pipeline, juntamente com o uso do GitHub Actions para a criação de esteiras de CI/CD.. 
+
+### Tecnologias Utilizadas
+ 
+Compute Engine, GitHub Action, Terraform, Cloud Function, Airflow, Pyspark, Google Drive, DataProc, Cloud Storage  
+
+<p align="left">
+<img src="/img/Google-Compute-Engine.png" alt="compute-engine" height="50" /> 
+<img src="/img/git_hub_actions.png" alt="github_actions" height="50" />
+<img src="/img/terraform.png" alt="terraform" height="50" />
+<img src="/img/cloud-function.png" alt="cloud-function" height="50" />
+<img src="/img/AirflowLogo.png" alt="AirflowLogo.png" height="50" />
+<img src="/img/pyspark.jpg" alt="pyspark" height="50" />  
+<img src="/img/google_drive.jpg" alt="google_drive" height="50" />  
+<img src="/img/data_proc.png" alt="data_proc.png" height="50" />  
+<img src="/img/cloud storage.png" alt="cloud storage" height="50" />  
+</p>
+
+#### Link Projeto: https://github.com/brenonogueirasilva/dataproc
+
 ## Contato
 https://www.linkedin.com/in/breno-nogueira-silva-52904012b/
